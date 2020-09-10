@@ -4,7 +4,8 @@
   "description": "Restaurant page in js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,13 @@
   },
   "homepage": "https://github.com/imhilla/restaurant-page#readme",
   "devDependencies": {
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.1.0",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2"
   }
 }

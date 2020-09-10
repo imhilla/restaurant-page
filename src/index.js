@@ -1,1 +1,1 @@
-console.log("Hillary")
+import navBar from './nav.js';
