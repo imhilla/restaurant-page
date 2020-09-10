@@ -2,17 +2,16 @@ function navBar() {
   const myHeader = document.createElement('div');
   myHeader.innerHTML = `
     <nav>
-      <div class="logo"><img src="../src/logo.png" /></div>
+      <div class="logo"></div>
       <div class="sub-nav">
         <div class="drop-down">
-          <a href="">Our menu<span><i class="fas fa-angle-down"></i></a></span>
         </div>
-        <div class="about-us"><a href="">About our food</a></div>
-        <div class="trending"><a href="">Discover</a></div>
-        <div class="location"><a href="">Location</a></div>
+        <div class="about-us"></div>
+        <div class="trending"></div>
+        <div class="location"></div>
       </div>
-      <div>
-        <button class="btn">Order now</button>
+      <div class="order">
+        
       </div>
     </nav>`;
   return myHeader;
