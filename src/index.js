@@ -15,18 +15,10 @@ import aboutFoodModule from './aboutourfood.js'
 import discoverCampModule from './discover.js'
 import campLocationModule from './ourLocation'
 
-// const clearPage = () => {
-//   const clearContent = document.getElementById('clearContainer')
-//   clearContent.style.display = 'none';
-// };
-
-// clearPage();
-
 const clearDefaultPage = () => {
   const clearDefault = document.getElementById('default1')
   clearDefault.style.display = 'none';
 };
-clearDefaultPage();
 
 const clearAboutPage = () => {
   const clearAbout = document.getElementById('aboutfood1')
@@ -54,6 +46,7 @@ const showDefaultPage = () => {
   clearCampPage();
 };
 document.getElementById("defaultId").addEventListener("click", showDefaultPage);
+
 const showAboutPage = () => {
   const showAbout = document.getElementById('aboutfood1')
   showAbout.style.display = 'block';
@@ -71,7 +64,6 @@ const showDiscoverPage = () => {
   clearAboutPage();
 };
 document.getElementById("discoverr").addEventListener("click", showDiscoverPage);
-
 
 const showCampPage = () => {
   const showCampPage = document.getElementById('camplocate')
