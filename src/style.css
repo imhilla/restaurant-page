@@ -7,30 +7,28 @@ nav,
 }
 
 nav {
-  margin: 20px;
   border-bottom: rgb(240, 240, 240) 2px solid;
   justify-content: space-between;
 }
-.sub-nav {
-  padding-top: 30px;
-}
+
 .sub-nav a {
   font-size: 1.2em;
   text-decoration: none;
   color: black;
-  border-bottom: 5px blue solid;
 }
 
 .logo img {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   margin-right: 50px;
 }
 
 .drop-down,
 .about-us,
-.trending, .location {
+.trending,
+.location {
   margin-right: 50px;
+  padding-top: 1em;
 }
 .btn {
   border: none;
@@ -38,10 +36,14 @@ nav {
   color: white;
   border-radius: 3px;
   padding: 6px 9px;
-  margin: 40px;
-  font-size: 1.1em;
+  font-size: 1em;
+  margin: 1em;
 }
 
-.drop-down span {
-  padding-left: 10px;
+.dropdown-menu {
+  margin-top: 3.5em;
+}
+
+.dropdown-menu a {
+  font-size: 15px;
 }
