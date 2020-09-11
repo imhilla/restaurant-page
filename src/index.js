@@ -11,4 +11,7 @@ import location from './location.js';
 import logo from './logo.js';
 import button from './order.js'
 import showMenu from './menu.js'
-
+import defaultPage from './default.js'
+import aboutFood from './aboutourfood.js'
+import discoverCamp from './discover.js'
+import ourCampLocation from './ourLocation'

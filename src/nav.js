@@ -11,9 +11,12 @@ function navBar() {
         <div class="location"></div>
       </div>
       <div class="order">
-        
       </div>
-    </nav>`;
+    </nav>
+    <div class='default'></div>
+    <div class='aboutFood'></div>
+    <div class='discoverCamp'></div>
+    <div class='campLocation'></div>`;
   return myHeader;
 } 
 document.querySelector('#content').appendChild(navBar());
