@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
 nav,
 .sub-nav {
   display: flex;
@@ -30,6 +31,7 @@ nav {
   margin-right: 50px;
   padding-top: 1em;
 }
+
 .btn {
   border: none;
   background-color: blue;
@@ -61,14 +63,14 @@ nav {
   text-align: center;
 }
 
-.homepage1 img{
+.homepage1 img {
   width: 100vw;
 }
 
 .trending-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr) ;
+  grid-template-rows: repeat(3, 1fr);
   grid-gap: 3em;
 }
 
