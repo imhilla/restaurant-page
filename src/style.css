@@ -1,0 +1,85 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav,
+.sub-nav {
+  display: flex;
+}
+
+nav {
+  border-bottom: rgb(240, 240, 240) 2px solid;
+  justify-content: space-between;
+}
+
+.sub-nav a {
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+}
+
+.logo img {
+  height: 70px;
+  width: 70px;
+  margin-right: 50px;
+}
+
+.drop-down,
+.about-us,
+.trending,
+.location {
+  margin-right: 50px;
+  padding-top: 1em;
+}
+
+.btn {
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 3px;
+  padding: 6px 9px;
+  font-size: 1em;
+  margin: 1em;
+}
+
+.dropdown-menu {
+  margin-top: 1.9em;
+}
+
+.dropdown-menu a {
+  font-size: 15px;
+}
+
+.homepage {
+  width: 100vw;
+}
+
+.homepage img {
+  width: 100%;
+  height: 400px;
+}
+
+.about-page {
+  text-align: center;
+}
+
+.homepage1 img {
+  width: 100vw;
+}
+
+.trending-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.trending-grid div img {
+  height: 250px;
+  width: 100%;
+}
+
+.trending-header {
+  text-align: center;
+  margin: 1em;
+}
