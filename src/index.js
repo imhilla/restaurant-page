@@ -16,7 +16,7 @@ import sander from './img/sander.jpg';
 import homepage from './img/homepage.jpg';
 import shop from './img/shop.jpg';
 import golden from './img/golden.jpg';
-
+/* eslint-disable no-unused-vars */
 const page = {
   navbar: navBarModule,
   about: aboutModule,
@@ -37,6 +37,8 @@ const images = {
   image3: shop,
   image4: golden,
 };
+
+/* eslint-enable no-unused-vars */
 
 const clearDefaultPage = () => {
   const clearDefault = document.getElementById('default1');
