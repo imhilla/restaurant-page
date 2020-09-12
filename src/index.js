@@ -14,6 +14,13 @@ import defaultPageModule from './default.js'
 import aboutFoodModule from './aboutourfood.js'
 import discoverCampModule from './discover.js'
 import campLocationModule from './ourLocation'
+import sander from './img/sander.jpg'
+import homepage from './img/homepage.jpg'
+import shop from './img/shop.jpg'
+import golden from './img/golden.jpg'
+
+
+
 
 const clearDefaultPage = () => {
   const clearDefault = document.getElementById('default1')
