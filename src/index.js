@@ -22,7 +22,7 @@ const page = {
   about: aboutModule,
   trending: trendingModule,
   location: locationModule,
-  logo: logo,
+  logoo: logo,
   button: buttonModule,
   menu: menuModule,
   default: defaultPageModule,
