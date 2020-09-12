@@ -5,7 +5,7 @@ import navBarModule from './nav';
 import aboutModule from './about';
 import trendingModule from './trending';
 import locationModule from './location';
-import logo from './logo';
+import logoo from './logo';
 import buttonModule from './order';
 import menuModule from './menu';
 import defaultPageModule from './default';
@@ -22,7 +22,7 @@ const page = {
   about: aboutModule,
   trending: trendingModule,
   location: locationModule,
-  logo: logo,
+  logoo: logo,
   button: buttonModule,
   menu: menuModule,
   default: defaultPageModule,
@@ -37,6 +37,8 @@ const images = {
   image3: shop,
   image4: golden,
 };
+
+page, images
 
 const clearDefaultPage = () => {
   const clearDefault = document.getElementById('default1');
