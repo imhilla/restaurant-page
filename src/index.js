@@ -8,16 +8,16 @@ import aboutModule from './about.js';
 import trendingModule from './trending.js';
 import locationModule from './location.js';
 import logo from './logo.js';
-import buttonModule from './order.js'
-import menuModule from './menu.js'
-import defaultPageModule from './default.js'
-import aboutFoodModule from './aboutourfood.js'
-import discoverCampModule from './discover.js'
-import campLocationModule from './ourLocation'
-import sander from './img/sander.jpg'
-import homepage from './img/homepage.jpg'
-import shop from './img/shop.jpg'
-import golden from './img/golden.jpg'
+import buttonModule from './order.js';
+import menuModule from './menu.js';
+import defaultPageModule from './default.js';
+import aboutFoodModule from './aboutourfood.js';
+import discoverCampModule from './discover.js';
+import campLocationModule from './ourLocation';
+import sander from './img/sander.jpg';
+import homepage from './img/homepage.jpg';
+import shop from './img/shop.jpg';
+import golden from './img/golden.jpg';
 
 
 
@@ -52,7 +52,7 @@ const showDefaultPage = () => {
   clearDiscoverPage();
   clearCampPage();
 };
-document.getElementById("defaultId").addEventListener("click", showDefaultPage);
+document.getElementById('defaultId').addEventListener('click', showDefaultPage);
 
 const showAboutPage = () => {
   const showAbout = document.getElementById('aboutfood1')
@@ -61,7 +61,7 @@ const showAboutPage = () => {
   clearCampPage();
   clearDefaultPage();
 };
-document.getElementById("aboutEvent").addEventListener("click", showAboutPage);
+document.getElementById('aboutEvent').addEventListener('click', showAboutPage);
 
 const showDiscoverPage = () => {
   const showDiscover = document.getElementById('campdiscover')
@@ -70,7 +70,7 @@ const showDiscoverPage = () => {
   clearDefaultPage();
   clearAboutPage();
 };
-document.getElementById("discoverr").addEventListener("click", showDiscoverPage);
+document.getElementById('discoverr').addEventListener('click', showDiscoverPage);
 
 const showCampPage = () => {
   const showCampPage = document.getElementById('camplocate')
@@ -79,4 +79,4 @@ const showCampPage = () => {
   clearAboutPage();
   clearDiscoverPage();
 };
-document.getElementById("locationid").addEventListener("click", showCampPage);
+document.getElementById('locationid').addEventListener('click', showCampPage);
