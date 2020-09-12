@@ -28,15 +28,15 @@ const page = {
   default: defaultPageModule,
   aboutFood: aboutFoodModule,
   discover: discoverCampModule,
-  camp: campLocationModule
-}
+  camp: campLocationModule,
+};
 
 const images = {
   image1: sander,
   image2: homepage,
   image3: shop,
-  image4: golden
-}
+  image4: golden,
+};
 
 const clearDefaultPage = () => {
   const clearDefault = document.getElementById('default1');
