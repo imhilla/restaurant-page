@@ -17,8 +17,26 @@ import homepage from './img/homepage.jpg';
 import shop from './img/shop.jpg';
 import golden from './img/golden.jpg';
 
+const page = {
+  navbar: navBarModule,
+  about: aboutModule,
+  trending: trendingModule,
+  location: locationModule,
+  logo: logo,
+  button: buttonModule,
+  menu: menuModule,
+  default: defaultPageModule,
+  aboutFood: aboutFoodModule,
+  discover: discoverCampModule,
+  camp: campLocationModule
+}
 
-
+const images = {
+  image1: sander,
+  image2: homepage,
+  image3: shop,
+  image4: golden
+}
 
 const clearDefaultPage = () => {
   const clearDefault = document.getElementById('default1');
