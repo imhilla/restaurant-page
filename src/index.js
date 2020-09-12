@@ -1,7 +1,5 @@
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Popper from 'popper';
 import './style.css';
 import navBarModule from './nav';
 import aboutModule from './about';
