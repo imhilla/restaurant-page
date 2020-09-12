@@ -24,10 +24,10 @@ const aboutFoodModule = (() => {
         </p>
       </div>
     </div>
-  </div>`
+  </div>`;
     myAboutFood.classList.add('aboutFood');
-    myAboutFood.setAttribute("id", "aboutFoodId");
-    return myAboutFood
+    myAboutFood.setAttribute('id', 'aboutFoodId');
+    return myAboutFood;
   }
   document.querySelector('.aboutFood').appendChild(aboutFood());
 })();

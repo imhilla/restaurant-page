@@ -40,10 +40,10 @@ const defaultPageModule = (() => {
       <img src="../src/img/golden.jpg" />;
     </div>
   </div></div>
-  </div>`
+  </div>`;
     myDefault.classList.add('defaultContent');
-    myDefault.setAttribute("id", "defaultId");
-    return myDefault
+    myDefault.setAttribute('id', 'defaultId');
+    return myDefault;
   }
   document.querySelector('.default').appendChild(defaultPage());
 })();

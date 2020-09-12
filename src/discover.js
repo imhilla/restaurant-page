@@ -60,13 +60,11 @@ const discoverCampModule = (() => {
       </div>
     </div>
   </div>
-</div>
-`
+</div>`;
     myDiscoverCamp.classList.add('defaultContent');
-    myDiscoverCamp.setAttribute("id", "defaultId");
-    return myDiscoverCamp
+    myDiscoverCamp.setAttribute('id', 'defaultId');
+    return myDiscoverCamp;
   }
   document.querySelector('.discoverCamp').appendChild(discoverCamp());
 })();
 export default discoverCampModule;
-

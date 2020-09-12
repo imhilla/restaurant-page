@@ -5,7 +5,7 @@ const menuModule = (() => {
     myMenu.innerHTML = `
   <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
   Our menu
-</a>`
+</a>`;
     return myMenu;
   }
   document.querySelector('.drop-down').appendChild(campMenu());
@@ -22,10 +22,10 @@ const menuModule = (() => {
     <a class="dropdown-item" href="#">Snacks & sides</a>
     <a class="dropdown-item" href="#">Kenyan kienyeji</a>
     <a class="dropdown-item" href="#">Drinks</a>
-  </div>`
+  </div>`;
     myDropdown.classList.add('dropdown-content');
-    myDropdown.setAttribute("id", "showDropdown");
-    return myDropdown
+    myDropdown.setAttribute('id', 'showDropdown');
+    return myDropdown;
   }
   document.querySelector('.dropdown-list').appendChild(showMenu());
 })();

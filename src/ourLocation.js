@@ -9,10 +9,10 @@ const campLocationModule = (() => {
     <p> 1221 Bellevue Street Suite 113 </p>
     <p>  Green Bay, WI 54302 </p>
     </div>
-  </div>`
+  </div>`;
     myCampLocation.classList.add('aboutFood');
-    myCampLocation.setAttribute("id", "aboutFoodId");
-    return myCampLocation
+    myCampLocation.setAttribute('id', 'aboutFoodId');
+    return myCampLocation;
   }
   document.querySelector('.campLocation').appendChild(ourCampLocation());
 })();
